@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+#task-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#task-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#task-list .completed {
+    background-color: #28a745; /* Verde para tareas resueltas */
+    color: white;
+    text-decoration: line-through;
+}
+#task-list .expired {
+    background-color: #dc3545; /* Rojo para tareas vencidas */
+    color: white;
+}
+#task-list .pending {
+    background-color: #ffffff; /* Blanco para tareas pendientes */
+}
+.button-container button {
+    margin-left: 5px;
+}
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+.dark-mode #task-form {
+    background-color: #000000;
+}
+.dark-mode #task-list .pending {
+    background-color: #ffffff;
+    color: #000000;
+}
